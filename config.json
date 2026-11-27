@@ -23,10 +23,22 @@
     "time_preferences" : {
         "weekdays" : {
             "enabled" : true,
-            "days" : ["monday", "tuesday", "wednesday", "thursday", "friday"]
+            "days" : ["monday", "tuesday", "wednesday", "thursday", "friday"],
+            "start_time" : "09:00",
+            "end_time" : "21:00"
+        },
 
-
+        "weekends" : {
+            "enabled" : true,
+            "days" : ["saturday", "sunday"],
+            "start_time" : "10:00",
+            "end_time" : "23:00"
         }
+    },
+
+    "output" : {
+        "directory" : "./output",
+        "filename" : "events.csv"
     }
 
 }
