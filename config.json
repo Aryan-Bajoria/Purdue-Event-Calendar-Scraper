@@ -1,0 +1,32 @@
+{
+    "keywords" : {
+        "include" : [
+
+        ],
+        "exclude" : [
+
+        ]
+    },
+
+    "event_preferences" : {
+        "preferred_event_types" : [
+
+        ],
+        "include_other_event_types" : true
+    },
+
+    "audience_type" : [
+        "Students (undergraduate)",
+        "General public"
+    ],
+
+    "time_preferences" : {
+        "weekdays" : {
+            "enabled" : true,
+            "days" : ["monday", "tuesday", "wednesday", "thursday", "friday"]
+
+
+        }
+    }
+
+}
